@@ -1,23 +1,5 @@
 .app {
-  text-align: center;
-  background-color: #C4D49C;
-}
-
-.name {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'League Spartan', sans-serif;
-  font-size: 6vmin;
-  color: white;
-  text-shadow: 0.75vmin 0.75vmin 0 #6E8B26;
-}
-
-@media (max-width: 667px) {
-  .name {
-    font-size: 8vmin;
-    text-shadow: 1vmin 1vmin 0 #6E8B26;
-  }  
+  background-color: #c4d49c;
+  height: 100vh;
+  width: 100vw;
 }
