@@ -1,13 +1,11 @@
 import "./IconButton.css";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function IconButton({icon}) {
-    return (
-        <button className="button">
-            {icon}
-        </button>
-    )
+function IconButton({ icon, link }) {
+  return (
+    <a href={link} target="_blank" rel="noreferrer">
+      <button className="button">{icon}</button>
+    </a>
+  );
 }
 
 export default IconButton;
