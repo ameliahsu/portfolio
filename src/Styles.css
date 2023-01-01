@@ -46,30 +46,33 @@
   column-gap: 6vmin;
 }
 
+.page-button-container {
+  align-items: center;
+  justify-content: center;
+  height: 50vmin;
+  width: 50vmin;
+  position: relative;
+}
+
 .page-button {
   background-image: url("./img/cutedog.jfif");
   background-size: cover;
   border: none;
   border-radius: 50%;
-  width: 20vmin;
-  height: 20vmin;
-  z-index: 0;
+  width: 70%;
+  height: 70%;
   position: absolute;
+  top: 15%;
+  left: 15%;
 }
 
 .page-button:hover {
   border: solid;
-}
-
-.button-heading {
-  align-items: center;
-  justify-content: center;
+  border-color: white;
 }
 
 .heading {
-  z-index: 1;
   position: absolute;
-  color: white;
 }
 
 @media (max-width: 667px) {

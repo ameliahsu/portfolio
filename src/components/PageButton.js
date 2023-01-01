@@ -1,50 +1,58 @@
-// import "../Styles.css";
-// import React, { Component } from "react";
-// import { View, StyleSheet } from "react-native";
-// import Svg, { G, Text, TextPath, TSpan, Circle } from "react-native-svg";
+import "../Styles.css";
+import ReactCurvedText from "react-curved-text";
 
-// function PageButton() {
-//   return (
-//     <View
-//       style={{
-//         flex: 1,
-//         justifyContent: "center",
-//         paddingTop: Constants.statusBarHeight,
-//         padding: 0,
-//       }}
-//     >
-//       <Svg height="100%" width="100%" viewBox="0 0 300 300" {...props}>
-//         <G id="circle">
-//           <Circle
-//             r={100}
-//             x={150}
-//             y={150}
-//             fill="none"
-//             stroke="none"
-//             strokeWidth={0}
-//             transform="rotate(-135)"
-//           />
-//         </G>
-//         <Image
-//           style={{
-//             width: 220,
-//             height: 220,
-//             borderRadius: 110,
-//             marginLeft: 68,
-//             marginTop: 175,
-//           }}
-//           source={require("./doggy.jpg")}
-//         />
-//         <Text fill="#000" fontSize="14">
-//           <Text fill="#000" fontSize="14">
-//             <TextPath href="#circle">
-//               <TSpan dy={0}>Text along a curved path...</TSpan>
-//             </TextPath>
-//           </Text>
-//         </Text>
-//       </Svg>
-//     </View>
-//   );
-// }
+function vh(percent) {
+  var h = Math.max(
+    document.documentElement.clientHeight,
+    window.innerHeight || 0
+  );
+  return (percent * h) / 100;
+}
 
-// export default PageButton;
+function vw(percent) {
+  var w = Math.max(
+    document.documentElement.clientWidth,
+    window.innerWidth || 0
+  );
+  return (percent * w) / 100;
+}
+
+function vmin(percent) {
+  return Math.min(vh(percent), vw(percent));
+}
+
+function PageButton() {
+  var size = vmin(50);
+  var center = size / 2;
+  var radius = vmin(40) / 2;
+  return (
+    <div className="page-button-container">
+      <ReactCurvedText
+        className="heading"
+        width={size}
+        height={size}
+        cx={center.toString()}
+        cy={center.toString()}
+        rx={radius}
+        ry={radius}
+        startOffset={90}
+        reversed={true}
+        text="about me"
+        textProps={{
+          style: {
+            fontSize: "6vmin",
+            fontFamily: '"League Spartan", sans-serif',
+          },
+        }}
+        textPathProps={{
+          style: {
+            fill: "white",
+          },
+        }}
+      />
+      <button className="page-button" />
+    </div>
+  );
+}
+
+export default PageButton;
