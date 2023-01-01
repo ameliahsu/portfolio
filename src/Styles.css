@@ -1,3 +1,8 @@
+.font {
+  font-family: "League Spartan", sans-serif;
+  color: white;
+}
+
 .app {
   background-color: #c4d49c;
   height: 100vh;
@@ -15,9 +20,7 @@
 }
 
 .name {
-  font-family: "League Spartan", sans-serif;
   font-size: 6vmin;
-  color: white;
   text-shadow: 0.75vmin 0.75vmin 0 #6e8b26;
 }
 
@@ -40,8 +43,33 @@
 .socials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* margin: 0 50vw; */
   column-gap: 6vmin;
+}
+
+.page-button {
+  background-image: url("./img/cutedog.jfif");
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin;
+  z-index: 0;
+  position: absolute;
+}
+
+.page-button:hover {
+  border: solid;
+}
+
+.button-heading {
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  z-index: 1;
+  position: absolute;
+  color: white;
 }
 
 @media (max-width: 667px) {
