@@ -37,6 +37,13 @@
   background-color: #4f6614;
 }
 
+.socials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* margin: 0 50vw; */
+  column-gap: 6vmin;
+}
+
 @media (max-width: 667px) {
   .name {
     font-size: 8vmin;
