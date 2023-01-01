@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Styles.css";
 import GridLines from "react-gridlines";
 import Home from "./Home.js";
 

@@ -1,0 +1,51 @@
+.app {
+  background-color: #c4d49c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: "League Spartan", sans-serif;
+  font-size: 6vmin;
+  color: white;
+  text-shadow: 0.75vmin 0.75vmin 0 #6e8b26;
+}
+
+.icon-button {
+  color: white;
+  background-color: #6e8b26;
+  border: none;
+  border-radius: 50%;
+  width: 12vmin;
+  height: 12vmin;
+  font-size: 6vmin;
+  justify-content: "center";
+  align-items: "center";
+}
+
+.icon-button:hover {
+  background-color: #4f6614;
+}
+
+@media (max-width: 667px) {
+  .name {
+    font-size: 8vmin;
+    text-shadow: 1vmin 1vmin 0 #6e8b26;
+  }
+
+  .icon-button {
+    width: 16vmin;
+    height: 16vmin;
+    font-size: 8vmin;
+  }
+}
