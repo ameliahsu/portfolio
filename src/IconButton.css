@@ -1,0 +1,10 @@
+.button {
+    color: white;
+    background-color: #6E8B26;
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    justify-content: 'center';
+    align-items: 'center';
+}
