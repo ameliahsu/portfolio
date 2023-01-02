@@ -22,6 +22,8 @@
 .name {
   font-size: 6vmin;
   text-shadow: 0.75vmin 0.75vmin 0 #6e8b26;
+  position: absolute;
+  width: 100%;
 }
 
 .icon-button {
@@ -49,11 +51,12 @@
 }
 
 .page-button-container {
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   height: 50vmin;
   width: 50vmin;
   position: relative;
+  justify-self: center;
 }
 
 .page-button {
@@ -81,13 +84,14 @@
   column-gap: 6vmin;
 }
 
-/* .bottom-row {
-  display: flex;
+.bottom-row {
+  /* display: flex;
   flex-direction: column;
   justify-content: "center";
-  align-items: "center";
+  align-items: "center"; */
   position: relative;
-} */
+  width: 100%;
+}
 
 @media (max-width: 667px) {
   .name {
