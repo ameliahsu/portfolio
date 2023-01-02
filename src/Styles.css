@@ -44,6 +44,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 6vmin;
+  position: absolute;
+  bottom: 6vmin;
 }
 
 .page-button-container {
@@ -73,11 +75,19 @@
   position: absolute;
 }
 
-.bottom-row {
+.bottom-pages {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 6vmin;
 }
+
+/* .bottom-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: "center";
+  align-items: "center";
+  position: relative;
+} */
 
 @media (max-width: 667px) {
   .name {
@@ -89,5 +99,22 @@
     width: 16vmin;
     height: 16vmin;
     font-size: 8vmin;
+  }
+
+  .bottom-row {
+    width: 100%;
+  }
+
+  .bottom-pages {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+  }
+
+  .empty {
+    display: none;
+  }
+
+  .socials {
+    bottom: 12vmin;
   }
 }
