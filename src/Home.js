@@ -36,7 +36,7 @@ function Home() {
             header={"photography"}
             image={"/img/street.jpg"}
             link={"https://ameliahsu.myportfolio.com/digital-photos"}
-            offset={90}
+            offset={40}
           />
         </div>
       </div>

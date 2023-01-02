@@ -107,6 +107,10 @@
 }
 
 @media (orientation: portrait) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
   .name {
     font-size: 8vmin;
     text-shadow: 1vmin 1vmin 0 #6e8b26;
@@ -114,7 +118,7 @@
   }
 
   .h1 {
-    margin: 4vmin;
+    margin: 0;
   }
 
   .icon-button {
@@ -131,12 +135,14 @@
   }
 
   .top-wrapper {
-    margin: -2vmin 0;
+    margin-bottom: -6vmin;
+    top: 0;
     position: relative;
   }
 
   .bottom-wrapper {
-    margin: 2vmin 0;
+    /* margin: 2vmin 0; */
+    bottom: 0;
     position: relative;
   }
 
@@ -145,7 +151,8 @@
   }
 
   .socials {
-    margin-top: 2vmin;
+    /* margin-top: 2vmin; */
+    bottom: 0;
     position: relative;
   }
 }
