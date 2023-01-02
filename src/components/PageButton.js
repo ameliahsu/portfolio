@@ -1,3 +1,4 @@
+import React from "react";
 import "../Styles.css";
 import ReactCurvedText from "react-curved-text";
 
@@ -22,6 +23,15 @@ function vmin(percent) {
 }
 
 function PageButton({ header, image, offset }) {
+  React.useEffect(() => {
+    function handleResize() {
+      console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
+      window.location.reload();
+    }
+
+    window.addEventListener("resize", handleResize);
+  });
+
   var size = vmin(50);
   var center = size / 2;
   var radius = vmin(40) / 2;
