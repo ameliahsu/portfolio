@@ -66,15 +66,17 @@
 }
 
 .page-button:hover {
-  /* border: solid;
-  border-color: white;
-  border-width: 1vmin;
-  border-image-outset: 3vmin; */
   outline: 1vmin solid white;
 }
 
 .heading {
   position: absolute;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6vmin;
 }
 
 @media (max-width: 667px) {

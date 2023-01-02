@@ -21,7 +21,7 @@ function vmin(percent) {
   return Math.min(vh(percent), vw(percent));
 }
 
-function PageButton({ image, offset }) {
+function PageButton({ header, image, offset }) {
   var size = vmin(50);
   var center = size / 2;
   var radius = vmin(40) / 2;
@@ -37,7 +37,7 @@ function PageButton({ image, offset }) {
         ry={radius}
         startOffset={offset}
         reversed={true}
-        text="about me"
+        text={header}
         textProps={{
           style: {
             fontSize: "6vmin",
