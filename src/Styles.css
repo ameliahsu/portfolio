@@ -57,12 +57,9 @@
 }
 
 .page-button-container {
-  /* align-items: center;
-  justify-content: center; */
   height: 50vmin;
   width: 50vmin;
   position: relative;
-  justify-self: center;
 }
 
 .page-button {
@@ -83,18 +80,11 @@
 
 .heading {
   position: absolute;
-  z-index: -5;
-}
-
-.bottom-pages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 6vmin;
 }
 
 .bottom-row {
-  position: relative;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-row {
@@ -102,15 +92,18 @@
   justify-content: space-around;
 }
 
-.top-wrapper {
+.top-wrapper,
+.bottom-wrapper {
   position: absolute;
+  width: 90%;
+}
+
+.top-wrapper {
   top: 4vmin;
-  z-index: 5;
 }
 
 .bottom-wrapper {
-  position: absolute;
-  bottom: 6vmin;
+  bottom: 4vmin;
 }
 
 @media (orientation: portrait) {
@@ -130,16 +123,20 @@
     font-size: 8vmin;
   }
 
+  .top-row,
   .bottom-row {
     display: flex;
-    flex-direction: column;
-    justify-content: "center";
-    align-items: "center";
+    justify-content: space-around;
+    position: relative;
   }
 
-  .bottom-pages {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 0;
+  .top-wrapper {
+    margin: -2vmin 0;
+    position: relative;
+  }
+
+  .bottom-wrapper {
+    margin: 2vmin 0;
     position: relative;
   }
 
@@ -148,6 +145,7 @@
   }
 
   .socials {
-    bottom: 12vmin;
+    margin-top: 2vmin;
+    position: relative;
   }
 }
