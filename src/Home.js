@@ -9,7 +9,7 @@ function Home() {
         <h1>mia hsu</h1>
       </header>
       <Socials />
-      <PageButton />
+      <PageButton image={"/img/cutedog.jfif"} offset={180} />
     </div>
   );
 }

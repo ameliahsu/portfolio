@@ -55,7 +55,6 @@
 }
 
 .page-button {
-  background-image: url("./img/cutedog.jfif");
   background-size: cover;
   border: none;
   border-radius: 50%;
@@ -67,8 +66,11 @@
 }
 
 .page-button:hover {
-  border: solid;
+  /* border: solid;
   border-color: white;
+  border-width: 1vmin;
+  border-image-outset: 3vmin; */
+  outline: 1vmin solid white;
 }
 
 .heading {

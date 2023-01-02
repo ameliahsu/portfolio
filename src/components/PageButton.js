@@ -21,7 +21,7 @@ function vmin(percent) {
   return Math.min(vh(percent), vw(percent));
 }
 
-function PageButton() {
+function PageButton({ image, offset }) {
   var size = vmin(50);
   var center = size / 2;
   var radius = vmin(40) / 2;
@@ -35,7 +35,7 @@ function PageButton() {
         cy={center.toString()}
         rx={radius}
         ry={radius}
-        startOffset={90}
+        startOffset={offset}
         reversed={true}
         text="about me"
         textProps={{
@@ -50,7 +50,12 @@ function PageButton() {
           },
         }}
       />
-      <button className="page-button" />
+      <button
+        className="page-button"
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      />
     </div>
   );
 }
