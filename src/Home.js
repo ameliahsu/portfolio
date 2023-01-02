@@ -13,12 +13,14 @@ function Home() {
           <PageButton
             header={"graphic design"}
             image={"/img/cutedog.jfif"}
+            link={"https://ameliahsu.myportfolio.com/graphic-design"}
             offset={0}
           />
           <div className="empty" />
           <PageButton
             header={"photography"}
             image={"/img/street.jpg"}
+            link={"https://ameliahsu.myportfolio.com/digital-photos"}
             offset={90}
           />
         </div>

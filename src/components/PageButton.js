@@ -22,7 +22,7 @@ function vmin(percent) {
   return Math.min(vh(percent), vw(percent));
 }
 
-function PageButton({ header, image, offset }) {
+function PageButton({ header, image, link, offset }) {
   React.useEffect(() => {
     function handleResize() {
       console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
@@ -60,12 +60,14 @@ function PageButton({ header, image, offset }) {
           },
         }}
       />
-      <button
-        className="page-button"
-        style={{
-          backgroundImage: `url(${image})`,
-        }}
-      />
+      <a href={link} target="_blank" rel="noreferrer">
+        <button
+          className="page-button"
+          style={{
+            backgroundImage: `url(${image})`,
+          }}
+        />
+      </a>
     </div>
   );
 }
