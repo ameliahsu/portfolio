@@ -7,7 +7,7 @@ function Home() {
     <div className="home">
       <div className="bottom-row">
         <header className="name font">
-          <h1>mia hsu</h1>
+          <h1 className="h1">mia hsu</h1>
         </header>
         <div className="bottom-pages">
           <PageButton
