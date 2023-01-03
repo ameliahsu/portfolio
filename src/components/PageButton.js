@@ -1,5 +1,5 @@
 import React from "react";
-import "../HomeStyles.css";
+import "../styles/Home.css";
 import ReactCurvedText from "react-curved-text";
 
 function vh(percent) {

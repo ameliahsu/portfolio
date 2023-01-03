@@ -1,4 +1,4 @@
-import "../HomeStyles.css";
+import "../styles/Home.css";
 
 function IconButton({ icon, link }) {
   return (

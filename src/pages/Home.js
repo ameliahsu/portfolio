@@ -1,6 +1,6 @@
-import "./HomeStyles.css";
-import Socials from "./components/Socials.js";
-import PageButton from "./components/PageButton";
+import "../styles/Home.css";
+import Socials from "../components/Socials.js";
+import PageButton from "../components/PageButton";
 
 function Home() {
   return (

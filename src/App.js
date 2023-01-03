@@ -1,6 +1,6 @@
-import "./HomeStyles.css";
+import "./styles/App.css";
 import GridLines from "react-gridlines";
-import Home from "./Home.js";
+import Home from "./pages/Home.js";
 import PageContainer from "./components/PageContainer";
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
         cellWidth={60}
         strokeWidth={6}
       >
-        {/* <Home /> */}
-        <PageContainer title={"graphic design"} />
+        <Home />
+        {/* <PageContainer title={"graphic design"} /> */}
       </GridLines>
     </div>
   );
