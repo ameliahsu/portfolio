@@ -22,7 +22,26 @@ function vmin(percent) {
   return Math.min(vh(percent), vw(percent));
 }
 
-function PageButton({ header, image, link, offset }) {
+function getTextWidth(str) {
+  let text = document.createElement("span");
+  document.body.appendChild(text);
+
+  text.style.fontFamily = '"League Spartan", sans-serif';
+  text.style.fontSize = 6 + "vmin";
+  text.style.height = "auto";
+  text.style.width = "auto";
+  text.style.position = "absolute";
+  text.style.whiteSpace = "no-wrap";
+  text.innerHTML = str;
+
+  var width = Math.ceil(text.clientWidth);
+
+  document.body.removeChild(text);
+
+  return width;
+}
+
+function PageButton({ header, image, link }) {
   React.useEffect(() => {
     function handleResize() {
       console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
@@ -35,6 +54,8 @@ function PageButton({ header, image, link, offset }) {
   var size = vmin(50);
   var center = size / 2;
   var radius = vmin(40) / 2;
+  var offset = (radius * Math.PI) / 2 - getTextWidth(header) / 2;
+
   return (
     <div className="page-button-container">
       <ReactCurvedText

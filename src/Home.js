@@ -11,13 +11,11 @@ function Home() {
             header={"about me"}
             image={"/img/garden.jfif"}
             link={"https://ameliahsu.myportfolio.com/graphic-design"}
-            offset={0}
           />
           <PageButton
             header={"robotics"}
             image={"/img/howls.jpg"}
             link={"https://ameliahsu.myportfolio.com/digital-photos"}
-            offset={90}
           />
         </div>
       </div>
@@ -30,13 +28,11 @@ function Home() {
             header={"graphic design"}
             image={"/img/cutedog.jfif"}
             link={"https://ameliahsu.myportfolio.com/graphic-design"}
-            offset={0}
           />
           <PageButton
             header={"photography"}
             image={"/img/street.jpg"}
             link={"https://ameliahsu.myportfolio.com/digital-photos"}
-            offset={40}
           />
         </div>
       </div>
