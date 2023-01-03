@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
       <header className="name">
-        <h1 className="h1">mia hsu</h1>
+        <h1>mia hsu</h1>
       </header>
       <div className="bottom-wrapper">
         <div className="bottom-row">

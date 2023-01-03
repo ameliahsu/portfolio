@@ -2,6 +2,7 @@ import "./styles/App.css";
 import GridLines from "react-gridlines";
 import Home from "./pages/Home.js";
 import PageContainer from "./components/PageContainer";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   // const [about, setAbout] = React.useState(false)
@@ -20,8 +21,8 @@ function App() {
         cellWidth={60}
         strokeWidth={6}
       >
-        <Home />
-        {/* <PageContainer title={"graphic design"} /> */}
+        {/* <Home /> */}
+        <PageContainer title={"graphic design"} contents={<AboutMe />} />
       </GridLines>
     </div>
   );

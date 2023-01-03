@@ -5,11 +5,30 @@
 }
 
 .container {
-  position: relative;
   background-color: #f7faf0;
   border-radius: 4vmin;
   width: 80%;
   height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.contents {
+  width: 96%;
+  height: 86%;
+  margin: 2%;
+  overflow-y: auto;
+}
+
+.heading {
+  width: 100%;
+  height: 10vmin;
+  position: relative;
 }
 
 .title {
@@ -35,4 +54,10 @@
 
 .exit:hover {
   color: #4f6614;
+}
+
+@media (orientation: portrait) {
+  .contents {
+    height: 75vh;
+  }
 }
