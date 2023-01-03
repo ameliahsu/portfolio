@@ -1,4 +1,4 @@
-import "./Styles.css";
+import "./HomeStyles.css";
 import Socials from "./components/Socials.js";
 import PageButton from "./components/PageButton";
 
@@ -11,11 +11,13 @@ function Home() {
             header={"about me"}
             image={"/img/garden.jfif"}
             link={"https://ameliahsu.myportfolio.com/graphic-design"}
+            buttonName={"about"}
           />
           <PageButton
             header={"robotics"}
             image={"/img/howls.jpg"}
             link={"https://ameliahsu.myportfolio.com/digital-photos"}
+            buttonName={"robotics"}
           />
         </div>
       </div>
@@ -28,11 +30,13 @@ function Home() {
             header={"graphic design"}
             image={"/img/cutedog.jfif"}
             link={"https://ameliahsu.myportfolio.com/graphic-design"}
+            buttonName={"graphics"}
           />
           <PageButton
             header={"photography"}
             image={"/img/street.jpg"}
             link={"https://ameliahsu.myportfolio.com/digital-photos"}
+            buttonName={"photos"}
           />
         </div>
       </div>

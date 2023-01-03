@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles.css";
+import "../HomeStyles.css";
 import ReactCurvedText from "react-curved-text";
 
 function vh(percent) {
@@ -41,7 +41,7 @@ function getTextWidth(str) {
   return width;
 }
 
-function PageButton({ header, image, link }) {
+function PageButton({ header, image, link, buttonName }) {
   React.useEffect(() => {
     function handleResize() {
       console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
@@ -81,14 +81,14 @@ function PageButton({ header, image, link }) {
           },
         }}
       />
-      <a href={link} target="_blank" rel="noreferrer">
-        <button
-          className="page-button"
-          style={{
-            backgroundImage: `url(${image})`,
-          }}
-        />
-      </a>
+      {/* <a href={link} target="_blank" rel="noreferrer"> */}
+      <button
+        className={`page-button ${buttonName}`}
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      />
+      {/* </a> */}
     </div>
   );
 }

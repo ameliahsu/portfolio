@@ -82,14 +82,14 @@
   position: absolute;
 }
 
-.bottom-row {
-  display: flex;
-  justify-content: space-between;
-}
-
 .top-row {
   display: flex;
   justify-content: space-around;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-wrapper,
@@ -111,6 +111,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .name {
     font-size: 8vmin;
     text-shadow: 1vmin 1vmin 0 #6e8b26;
@@ -140,18 +141,8 @@
     position: relative;
   }
 
-  .bottom-wrapper {
-    /* margin: 2vmin 0; */
-    bottom: 0;
-    position: relative;
-  }
-
-  .empty {
-    display: none;
-  }
-
+  .bottom-wrapper,
   .socials {
-    /* margin-top: 2vmin; */
     bottom: 0;
     position: relative;
   }

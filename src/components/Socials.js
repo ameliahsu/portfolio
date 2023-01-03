@@ -1,4 +1,4 @@
-import "../Styles.css";
+import "../HomeStyles.css";
 import IconButton from "./IconButton.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
