@@ -1,0 +1,38 @@
+.grid-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  background-color: #f7faf0;
+  border-radius: 4vmin;
+  width: 80%;
+  height: 80%;
+}
+
+.title {
+  position: absolute;
+  font-family: "League Spartan", sans-serif;
+  color: #6e8b26;
+  font-size: 4vmin;
+  margin: 0;
+  top: 5vmin;
+  width: 100%;
+  text-align: center;
+}
+
+.exit {
+  position: absolute;
+  top: 3vmin;
+  right: 3vmin;
+  color: #6e8b26;
+  background-color: transparent;
+  border: none;
+  font-size: 6vmin;
+}
+
+.exit:hover {
+  color: #4f6614;
+}

@@ -1,10 +1,10 @@
-.font {
-  font-family: "League Spartan", sans-serif;
-  color: white;
-}
-
 .app {
   background-color: #c4d49c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-area {
   height: 100vh;
   width: 100vw;
 }
@@ -21,6 +21,8 @@
 }
 
 .name {
+  font-family: "League Spartan", sans-serif;
+  color: white;
   font-size: 6vmin;
   text-shadow: 0.75vmin 0.75vmin 0 #6e8b26;
   position: absolute;

@@ -21,7 +21,7 @@ function Home() {
           />
         </div>
       </div>
-      <header className="name font">
+      <header className="name">
         <h1 className="h1">mia hsu</h1>
       </header>
       <div className="bottom-wrapper">
