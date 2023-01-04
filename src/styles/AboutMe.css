@@ -1,3 +1,39 @@
 p {
   margin: 0;
+  font-size: 3vmin;
+  font-stretch: expanded;
+  line-height: 4vmin;
+  color: #493d28;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 2vmin;
+}
+
+a {
+  color: #493d28;
+}
+
+strong,
+a:hover {
+  color: #4f6614;
+}
+
+button {
+  background-color: #e5f1c7;
+  font-family: "League Spartan", sans-serif;
+  font-size: 3vmin;
+  font-weight: 700;
+  color: #4f6614;
+  border: none;
+  padding: 2vmin;
+  border-radius: 2vmin;
+}
+
+button:hover {
+  background-color: #4f6614;
+  color: #e5f1c7;
+  border: none;
 }

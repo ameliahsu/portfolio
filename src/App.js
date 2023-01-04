@@ -22,7 +22,7 @@ function App() {
         strokeWidth={6}
       >
         {/* <Home /> */}
-        <PageContainer title={"graphic design"} contents={<AboutMe />} />
+        <PageContainer title={"about me"} contents={<AboutMe />} />
       </GridLines>
     </div>
   );

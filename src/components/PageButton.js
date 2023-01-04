@@ -73,6 +73,7 @@ function PageButton({ header, image, link, buttonName }) {
           style: {
             fontSize: "6vmin",
             fontFamily: '"League Spartan", sans-serif',
+            fontWeight: "700",
           },
         }}
         textPathProps={{
