@@ -4,7 +4,8 @@ import { faFileLines, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="aboutWrapper">
+      <img src="img/MIA.jpg" alt="Mia Hsu" />
       <p>
         Hi, my name is <strong>Mia Hsu</strong>!
         <br />I am a <strong>computer science</strong> student at the University
@@ -33,7 +34,7 @@ function AboutMe() {
         <br />
       </p>
       <a href="Amelia_Hsu_Resume.pdf" target="_blank" rel="noreferrer">
-        <button>
+        <button className="resume">
           view my resume <FontAwesomeIcon icon={faFileLines} />{" "}
         </button>
       </a>

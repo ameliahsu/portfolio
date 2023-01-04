@@ -9,7 +9,7 @@ function Home() {
         <div className="top-row">
           <PageButton
             header={"about me"}
-            image={"/img/garden.jfif"}
+            image={"/img/cheese.jpg"}
             link={"https://ameliahsu.myportfolio.com/graphic-design"}
             buttonName={"about"}
           />

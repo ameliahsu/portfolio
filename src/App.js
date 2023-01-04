@@ -21,8 +21,8 @@ function App() {
         cellWidth={60}
         strokeWidth={6}
       >
-        {/* <Home /> */}
-        <PageContainer title={"about me"} contents={<AboutMe />} />
+        <Home />
+        {/* <PageContainer title={"about me"} contents={<AboutMe />} /> */}
       </GridLines>
     </div>
   );

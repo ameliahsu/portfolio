@@ -21,7 +21,7 @@ a:hover {
   color: #4f6614;
 }
 
-button {
+.resume {
   background-color: #e5f1c7;
   font-family: "League Spartan", sans-serif;
   font-size: 3vmin;
@@ -32,8 +32,31 @@ button {
   border-radius: 2vmin;
 }
 
-button:hover {
+.resume:hover {
   background-color: #4f6614;
   color: #e5f1c7;
   border: none;
+}
+
+img {
+  width: 38vmin;
+  height: 38vmin;
+  border-radius: 100%;
+  float: right;
+  shape-outside: circle(50%);
+  margin-left: 5%;
+}
+
+@media (orientation: portrait) {
+  .aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    float: none;
+    justify-self: center;
+    margin: 0 0 3% 0;
+  }
 }
