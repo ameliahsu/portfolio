@@ -41,7 +41,7 @@ function getTextWidth(str) {
   return width;
 }
 
-function PageButton({ header, image, link, buttonName }) {
+function PageButton({ header, image, buttonName, setPage }) {
   React.useEffect(() => {
     function handleResize() {
       console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
@@ -82,14 +82,15 @@ function PageButton({ header, image, link, buttonName }) {
           },
         }}
       />
-      {/* <a href={link} target="_blank" rel="noreferrer"> */}
       <button
         className={`page-button ${buttonName}`}
         style={{
           backgroundImage: `url(${image})`,
         }}
+        onClick={() => {
+          setPage(true);
+        }}
       />
-      {/* </a> */}
     </div>
   );
 }

@@ -2,7 +2,7 @@ import "../styles/Home.css";
 import Socials from "../components/Socials.js";
 import PageButton from "../components/PageButton";
 
-function Home() {
+function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
   return (
     <div className="home">
       <div className="top-wrapper">
@@ -10,14 +10,14 @@ function Home() {
           <PageButton
             header={"about me"}
             image={"/img/cheese.jpg"}
-            link={"https://ameliahsu.myportfolio.com/graphic-design"}
             buttonName={"about"}
+            setPage={setAbout}
           />
           <PageButton
             header={"robotics"}
             image={"/img/howls.jpg"}
-            link={"https://ameliahsu.myportfolio.com/digital-photos"}
             buttonName={"robotics"}
+            setPage={setRobotics}
           />
         </div>
       </div>
@@ -29,14 +29,14 @@ function Home() {
           <PageButton
             header={"graphic design"}
             image={"/img/cutedog.jfif"}
-            link={"https://ameliahsu.myportfolio.com/graphic-design"}
             buttonName={"graphics"}
+            setPage={setGraphics}
           />
           <PageButton
             header={"photography"}
             image={"/img/street.jpg"}
-            link={"https://ameliahsu.myportfolio.com/digital-photos"}
             buttonName={"photos"}
+            setPage={setPhotos}
           />
         </div>
       </div>
