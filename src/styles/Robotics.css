@@ -25,7 +25,6 @@ img {
   border-radius: 0;
 }
 
-/* TODO: make images fill entire carousel */
 .caroLandscape {
   border-radius: 4vmin;
   float: right;
