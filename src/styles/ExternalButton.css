@@ -1,0 +1,20 @@
+a {
+  color: #493d28;
+}
+
+.ext {
+  background-color: #e5f1c7;
+  font-family: "League Spartan", sans-serif;
+  font-size: 3vmin;
+  font-weight: 700;
+  color: #4f6614;
+  border: none;
+  padding: 2vmin;
+  border-radius: 2vmin;
+}
+
+.ext:hover {
+  background-color: #4f6614;
+  color: #e5f1c7;
+  border: none;
+}
