@@ -1,0 +1,47 @@
+strong {
+  color: #86bdda;
+}
+
+.caroPortrait {
+  border-radius: 4vmin;
+  float: left;
+  width: 30%;
+  margin: 0 3% 0 0;
+  shape-outside: none;
+  overflow: hidden;
+}
+
+.portrait {
+  height: 50vmin;
+}
+
+.portraitImg {
+  height: 100%;
+  width: auto;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.caroLandscape {
+  border-radius: 4vmin;
+  float: right;
+  width: 50%;
+  margin-left: 3%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+@media (orientation: portrait) {
+  .caroPortrait {
+    width: 50%;
+  }
+  .caroLandscape {
+    width: 100%;
+    float: none;
+    justify-self: center;
+    margin: 0 0 3% 0;
+  }
+}

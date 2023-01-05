@@ -4,6 +4,7 @@ import GridLines from "react-gridlines";
 import Home from "./pages/Home.js";
 import PageContainer from "./components/PageContainer";
 import AboutMe from "./pages/AboutMe";
+import Robotics from "./pages/Robotics";
 
 function App() {
   const [about, setAbout] = React.useState(false);
@@ -20,17 +21,9 @@ function App() {
         strokeWidth={6}
       >
         {about ? (
-          <PageContainer
-            title={"about me"}
-            contents={<AboutMe />}
-            setPage={setAbout}
-          />
+          <AboutMe setAbout={setAbout} />
         ) : robotics ? (
-          <PageContainer
-            title={"robotics"}
-            contents={<p>hello</p>}
-            setPage={setRobotics}
-          />
+          <Robotics setRobotics={setRobotics} />
         ) : graphics ? (
           <PageContainer title={"graphic design"} setPage={setGraphics} />
         ) : photos ? (

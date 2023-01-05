@@ -1,8 +1,9 @@
 import "../styles/AboutMe.css";
+import PageContainer from "../components/PageContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileLines, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 
-function AboutMe() {
+function AboutContents() {
   return (
     <div className="aboutWrapper">
       <img src="img/MIA.jpg" alt="Mia Hsu" />
@@ -39,6 +40,16 @@ function AboutMe() {
         </button>
       </a>
     </div>
+  );
+}
+
+function AboutMe({ setAbout }) {
+  return (
+    <PageContainer
+      title={"about me"}
+      contents={<AboutContents />}
+      setPage={setAbout}
+    />
   );
 }
 

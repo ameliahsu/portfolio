@@ -42,14 +42,14 @@ function getTextWidth(str) {
 }
 
 function PageButton({ header, image, buttonName, setPage }) {
-  React.useEffect(() => {
-    function handleResize() {
-      console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
-      window.location.reload();
-    }
+  // React.useEffect(() => {
+  //   function handleResize() {
+  //     console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
+  //     window.location.reload();
+  //   }
 
-    window.addEventListener("resize", handleResize);
-  });
+  //   window.addEventListener("resize", handleResize);
+  // });
 
   var size = vmin(50);
   var center = size / 2;

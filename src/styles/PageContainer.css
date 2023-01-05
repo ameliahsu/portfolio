@@ -14,10 +14,6 @@
   align-items: center;
 }
 
-.clear {
-  clear: both;
-}
-
 .contents {
   width: 90%;
   height: 86%;
@@ -34,7 +30,7 @@
 .title {
   position: absolute;
   font-family: "League Spartan", sans-serif;
-  color: #6e8b26;
+  color: #f7a592;
   font-size: 4vmin;
   margin: 0;
   top: 5vmin;
@@ -54,6 +50,11 @@
 
 .exit:hover {
   color: #4f6614;
+}
+
+a:hover,
+strong {
+  color: #86bdda;
 }
 
 @media (orientation: portrait) {

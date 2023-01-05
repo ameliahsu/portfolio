@@ -16,7 +16,6 @@ function PageContainer({ title, contents, setPage }) {
           {<FontAwesomeIcon icon={faXmark} />}
         </button>
       </div>
-      <div className="clear"></div>
       <div className="contents">{contents}</div>
     </div>
   );
