@@ -15,7 +15,7 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
           />
           <PageButton
             header={"robotics"}
-            image={"/img/howls.jpg"}
+            image={"/img/robot.jpg"}
             buttonName={"robotics"}
             setPage={setRobotics}
           />

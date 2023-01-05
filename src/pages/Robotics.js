@@ -2,6 +2,10 @@ import "../styles/Robotics.css";
 import PageContainer from "../components/PageContainer";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import ExternalButton from "../components/ExternalButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function RoboticsContents() {
   return (
@@ -142,7 +146,20 @@ function RoboticsContents() {
         <strong>communication</strong>, <strong>project management</strong>, and
         the <strong>design process</strong>, and provided me with many memorable
         experiences and accomplishments.
+        <br />
       </p>
+      <div className="links">
+        <ExternalButton
+          icon={<FontAwesomeIcon icon={faDesktop} />}
+          link={"https://mcroboto22101.wixsite.com/mclean"}
+          text={"check out our website!"}
+        />
+        <ExternalButton
+          icon={<FontAwesomeIcon icon={faInstagram} />}
+          link={"https://instagram.com/mcroboto"}
+          text={"view our instagram!"}
+        />
+      </div>
     </div>
   );
 }

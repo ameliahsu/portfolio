@@ -1,12 +1,13 @@
 import "../styles/AboutMe.css";
 import PageContainer from "../components/PageContainer";
+import ExternalButton from "../components/ExternalButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 
 function AboutContents() {
   return (
     <div className="aboutWrapper">
-      <img src="img/MIA.jpg" alt="Mia Hsu" />
+      <img className="profile" src="img/MIA.jpg" alt="Mia Hsu" />
       <p>
         Hi, my name is <strong>Mia Hsu</strong>!
         <br />I am a <strong>computer science</strong> student at the University
@@ -34,11 +35,11 @@ function AboutContents() {
         ! I would love to hear from you.
         <br />
       </p>
-      <a href="Amelia_Hsu_Resume.pdf" target="_blank" rel="noreferrer">
-        <button className="resume">
-          view my resume <FontAwesomeIcon icon={faFileLines} />{" "}
-        </button>
-      </a>
+      <ExternalButton
+        icon={<FontAwesomeIcon icon={faFileLines} />}
+        link={"Amelia_Hsu_Resume.pdf"}
+        text={"view my resume!"}
+      />
     </div>
   );
 }
