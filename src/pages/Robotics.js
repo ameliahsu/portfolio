@@ -1,11 +1,11 @@
-import "../styles/Robotics.css";
-import PageContainer from "../components/PageContainer";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import ExternalButton from "../components/ExternalButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import ExternalButton from "../components/ExternalButton";
+import PageContainer from "../components/PageContainer";
+import "../styles/Robotics.css";
 
 function RoboticsContents() {
   return (

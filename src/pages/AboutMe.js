@@ -1,8 +1,8 @@
-import "../styles/AboutMe.css";
-import PageContainer from "../components/PageContainer";
-import ExternalButton from "../components/ExternalButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileLines } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExternalButton from "../components/ExternalButton";
+import PageContainer from "../components/PageContainer";
+import "../styles/AboutMe.css";
 
 function AboutContents() {
   return (

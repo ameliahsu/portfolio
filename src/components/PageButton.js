@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Home.css";
 import ReactCurvedText from "react-curved-text";
+import "../styles/Home.css";
 
 function vh(percent) {
   var h = Math.max(

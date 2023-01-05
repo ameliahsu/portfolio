@@ -1,8 +1,8 @@
-import "../styles/Home.css";
-import IconButton from "./IconButton.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../styles/Home.css";
+import IconButton from "./IconButton.js";
 
 function Socials() {
   return (
