@@ -47,6 +47,7 @@
   background-color: transparent;
   border: none;
   font-size: 6vmin;
+  transition: all 350ms ease;
 }
 
 .exit:hover {

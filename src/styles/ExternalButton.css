@@ -1,5 +1,6 @@
 a {
   color: #493d28;
+  transition: all 350ms ease;
 }
 
 .ext {
@@ -11,6 +12,7 @@ a {
   border: none;
   padding: 2vmin;
   border-radius: 2vmin;
+  transition: all 350ms ease;
 }
 
 .ext:hover {
