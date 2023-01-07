@@ -5,6 +5,7 @@ import Home from "./pages/Home.js";
 import PageContainer from "./components/PageContainer";
 import AboutMe from "./pages/AboutMe";
 import Robotics from "./pages/Robotics";
+import GraphicDesign from "./pages/GraphicDesign";
 
 function App() {
   const [about, setAbout] = React.useState(false);
@@ -25,7 +26,7 @@ function App() {
         ) : robotics ? (
           <Robotics setRobotics={setRobotics} />
         ) : graphics ? (
-          <PageContainer title={"graphic design"} setPage={setGraphics} />
+          <GraphicDesign setGraphics={setGraphics} />
         ) : photos ? (
           <PageContainer title={"photography"} setPage={setPhotos} />
         ) : (
