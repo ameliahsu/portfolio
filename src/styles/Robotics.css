@@ -51,4 +51,7 @@ img {
     justify-self: center;
     margin: 0 0 3% 0;
   }
+  .links {
+    column-gap: 2vmin;
+  }
 }

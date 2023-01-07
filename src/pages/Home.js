@@ -28,7 +28,7 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
         <div className="bottom-row">
           <PageButton
             header={"graphic design"}
-            image={"/img/cutedog.jfif"}
+            image={"/img/graphics/events/moge.png"}
             buttonName={"graphics"}
             setPage={setGraphics}
           />

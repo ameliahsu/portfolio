@@ -1,0 +1,102 @@
+.graphicsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subheading {
+  color: #86bdda;
+  font-size: 4vmin;
+  margin: 4vmin 0 2vmin 0;
+}
+
+.graphic {
+  float: none;
+  margin: 0;
+  /* width: 100%; */
+  height: auto;
+  width: 100%;
+}
+
+.wiffleballEvent {
+  width: 80%;
+  margin: 2vmin 0;
+}
+
+.wiffleball {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vmin;
+}
+
+.intros {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vmin;
+  margin-top: 2vmin;
+}
+
+.reveal {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2vmin;
+  margin-top: 2vmin;
+}
+
+.scrapbook {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2vmin;
+  margin-top: 2vmin;
+}
+
+.events {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2vmin;
+  margin-top: 2vmin;
+}
+
+.linksCaption {
+  margin: 2vmin 0;
+}
+
+@media (orientation: portrait) {
+  .wiffleballEvent,
+  .wiffleball,
+  .reveal,
+  .scrapbook,
+  .intros,
+  .events {
+    width: 100%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .reveal {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .wiffleball,
+  .intros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .events {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
