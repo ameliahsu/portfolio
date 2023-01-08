@@ -60,6 +60,12 @@ strong {
   color: #86bdda;
 }
 
+.subheading {
+  color: #86bdda;
+  font-size: 4vmin;
+  margin: 4vmin 0 2vmin 0;
+}
+
 @media (orientation: portrait) {
   .contents {
     height: 75vh;

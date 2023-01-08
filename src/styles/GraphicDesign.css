@@ -6,16 +6,9 @@
   text-align: center;
 }
 
-.subheading {
-  color: #86bdda;
-  font-size: 4vmin;
-  margin: 4vmin 0 2vmin 0;
-}
-
 .graphic {
   float: none;
   margin: 0;
-  /* width: 100%; */
   height: auto;
   width: 100%;
 }

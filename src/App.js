@@ -2,10 +2,10 @@ import React from "react";
 import "./styles/App.css";
 import GridLines from "react-gridlines";
 import Home from "./pages/Home.js";
-import PageContainer from "./components/PageContainer";
 import AboutMe from "./pages/AboutMe";
 import Robotics from "./pages/Robotics";
 import GraphicDesign from "./pages/GraphicDesign";
+import Photography from "./pages/Photography";
 
 function App() {
   const [about, setAbout] = React.useState(false);
@@ -28,7 +28,7 @@ function App() {
         ) : graphics ? (
           <GraphicDesign setGraphics={setGraphics} />
         ) : photos ? (
-          <PageContainer title={"photography"} setPage={setPhotos} />
+          <Photography setPhotos={setPhotos} />
         ) : (
           <Home
             setAbout={setAbout}
