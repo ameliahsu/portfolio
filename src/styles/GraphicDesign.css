@@ -11,6 +11,7 @@
   margin: 0;
   height: auto;
   width: 100%;
+  shape-outside: none;
 }
 
 .wiffleballEvent {

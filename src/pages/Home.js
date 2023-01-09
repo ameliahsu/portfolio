@@ -34,7 +34,7 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
           />
           <PageButton
             header={"photography"}
-            image={"/img/street.jpg"}
+            image={"/img/kayak.JPG"}
             buttonName={"photos"}
             setPage={setPhotos}
           />

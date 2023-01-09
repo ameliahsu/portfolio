@@ -36,6 +36,28 @@
   overflow: hidden;
 }
 
+.pretty {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.prettyCaption {
+  margin-bottom: 1vmin;
+}
+
+.prettyColumn {
+  flex: 25%;
+  max-width: 24%;
+  margin: 0 0.5%;
+}
+
+.prettyColumn > img {
+  margin-top: 1vmin;
+  vertical-align: middle;
+  width: 100%;
+}
+
 @media (orientation: portrait) {
   .film {
     grid-template-columns: repeat(2, 1fr);
@@ -50,5 +72,10 @@
   .portraitFood {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+
+  .prettyColumn {
+    flex: 50%;
+    max-width: 48%;
   }
 }
