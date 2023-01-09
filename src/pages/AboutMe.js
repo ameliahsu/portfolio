@@ -7,7 +7,7 @@ import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 function AboutContents() {
   return (
     <div className="aboutWrapper">
-      <img className="profile" src="img/MIA.jpg" alt="Mia Hsu" />
+      <img className="profile" src="./img/MIA.jpg" alt="Mia Hsu" />
       <p>
         Hi, my name is <strong>Mia Hsu</strong>!
         <br />I am a <strong>computer science</strong> student at the University

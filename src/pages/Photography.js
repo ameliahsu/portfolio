@@ -18,26 +18,46 @@ function PhotographyContents() {
         again!
       </p>
       <div className="film">
-        <img className="graphic" src="img/film/jason.jpg" alt="Dorm room" />
+        <img className="graphic" src="./img/film/jason.jpg" alt="Dorm room" />
         <img
           className="graphic"
-          src="img/film/bffs.jpg"
+          src="./img/film/bffs.jpg"
           alt="Friends in dorm room"
         />
-        <img className="graphic" src="img/film/sunset.jpg" alt="Sunset in DC" />
-        <img className="graphic" src="img/film/sandwich.jpg" alt="Sandwiches" />
-        <img className="graphic" src="img/film/joji3.jpg" alt="Joji concert" />
-        <img className="graphic" src="img/film/joji1.jpg" alt="Joji concert" />
-        <img className="graphic" src="img/film/joji2.jpg" alt="Joji concert" />
         <img
           className="graphic"
-          src="img/film/thanksgiving.jpg"
+          src="./img/film/sunset.jpg"
+          alt="Sunset in DC"
+        />
+        <img
+          className="graphic"
+          src="./img/film/sandwich.jpg"
+          alt="Sandwiches"
+        />
+        <img
+          className="graphic"
+          src="./img/film/joji3.jpg"
+          alt="Joji concert"
+        />
+        <img
+          className="graphic"
+          src="./img/film/joji1.jpg"
+          alt="Joji concert"
+        />
+        <img
+          className="graphic"
+          src="./img/film/joji2.jpg"
+          alt="Joji concert"
+        />
+        <img
+          className="graphic"
+          src="./img/film/thanksgiving.jpg"
           alt="Thanksgiving"
         />
-        <img className="graphic" src="img/film/bunny.jpg" alt="Bunny" />
+        <img className="graphic" src="./img/film/bunny.jpg" alt="Bunny" />
         <img
           className="graphic"
-          src="img/film/wontons1.jpg"
+          src="./img/film/wontons1.jpg"
           alt="Making wontons"
         />
       </div>
@@ -45,26 +65,34 @@ function PhotographyContents() {
       <p>Camera always eats first!</p>
       <div className="food">
         <div className="landscapeFood">
-          <img className="graphic" src="img/food/ruthies.JPG" alt="Brunch" />
-          <img className="graphic" src="img/food/sushi.JPG" alt="Sushi" />
-          <img className="graphic" src="img/food/tacos.jpg" alt="Tacos" />
+          <img className="graphic" src="./img/food/ruthies.JPG" alt="Brunch" />
+          <img className="graphic" src="./img/food/sushi.JPG" alt="Sushi" />
+          <img className="graphic" src="./img/food/tacos.jpg" alt="Tacos" />
         </div>
         <div className="portraitFood">
           <img
             className="graphic"
-            src="img/food/mochidonuts.jpg"
+            src="./img/food/mochidonuts.jpg"
             alt="Mochi donuts"
           />
-          <img className="graphic" src="img/food/teriyaki.JPG" alt="Teriyaki" />
-          <img className="graphic" src="img/food/poke.JPG" alt="Poke" />
+          <img
+            className="graphic"
+            src="./img/food/teriyaki.JPG"
+            alt="Teriyaki"
+          />
+          <img className="graphic" src="./img/food/poke.JPG" alt="Poke" />
 
           <img
             className="graphic"
-            src="img/food/matcha.jpg"
+            src="./img/food/matcha.jpg"
             alt="Matcha desserts"
           />
-          <img className="graphic" src="img/food/milkbar.jpg" alt="Ice cream" />
-          <img className="graphic" src="img/food/hanami.JPG" alt="Sushi" />
+          <img
+            className="graphic"
+            src="./img/food/milkbar.jpg"
+            alt="Ice cream"
+          />
+          <img className="graphic" src="./img/food/hanami.JPG" alt="Sushi" />
         </div>
       </div>
       <h3 className="subheading">pretty things</h3>
@@ -75,101 +103,117 @@ function PhotographyContents() {
         <div class="prettyColumn">
           <img
             className="graphic"
-            src="img/misc/lepanier.JPG"
+            src="./img/misc/lepanier.JPG"
             alt="Le Panier bakery"
           />
           <img
             className="graphic"
-            src="img/misc/flowers.JPG"
+            src="./img/misc/flowers.JPG"
             alt="Flowers at Pike Place Market"
           />
-          <img className="graphic" src="img/misc/fay.JPG" alt="Girl on ferry" />
           <img
             className="graphic"
-            src="img/misc/rio.JPG"
+            src="./img/misc/fay.JPG"
+            alt="Girl on ferry"
+          />
+          <img
+            className="graphic"
+            src="./img/misc/rio.JPG"
             alt="Lake at sunset"
           />
-          <img className="graphic" src="img/misc/plants.JPG" alt="Plant shop" />
           <img
             className="graphic"
-            src="img/misc/startup.JPG"
+            src="./img/misc/plants.JPG"
+            alt="Plant shop"
+          />
+          <img
+            className="graphic"
+            src="./img/misc/startup.JPG"
             alt="Pop up swings outside The Spheres"
           />
         </div>
         <div class="prettyColumn">
-          <img className="graphic" src="img/misc/kayak.JPG" alt="Kayaks" />
+          <img className="graphic" src="./img/misc/kayak.JPG" alt="Kayaks" />
           <img
             className="graphic"
-            src="img/misc/motorcycle.JPG"
+            src="./img/misc/motorcycle.JPG"
             alt="Motorcycle driving over bridge"
           />
-          <img className="graphic" src="img/misc/tula.JPG" alt="Puppy" />
+          <img className="graphic" src="./img/misc/tula.JPG" alt="Puppy" />
           <img
             className="graphic"
-            src="img/misc/hitc2.JPG"
+            src="./img/misc/hitc2.JPG"
             alt="Head in the Clouds Festival 2021"
           />
-          <img className="graphic" src="img/misc/jason.JPG" alt="Picnic" />
+          <img className="graphic" src="./img/misc/jason.JPG" alt="Picnic" />
           <img
             className="graphic"
-            src="img/misc/dopple.JPG"
+            src="./img/misc/dopple.JPG"
             alt="Chai on desk"
           />
         </div>
         <div class="prettyColumn">
           <img
             className="graphic"
-            src="img/misc/temple.JPG"
+            src="./img/misc/temple.JPG"
             alt="Temple in Taiwan"
           />
           <img
             className="graphic"
-            src="img/misc/hitc1.JPG"
+            src="./img/misc/hitc1.JPG"
             alt="Head in the Clouds Fesival 2021"
           />
           <img
             className="graphic"
-            src="img/misc/fall.JPG"
+            src="./img/misc/fall.JPG"
             alt="UMD campus in fall"
           />
           <img
             className="graphic"
-            src="img/misc/cornish.JPG"
+            src="./img/misc/cornish.JPG"
             alt="Sunset view from Cornish Commons"
           />
           <img
             className="graphic"
-            src="img/misc/mtrainier.JPG"
+            src="./img/misc/mtrainier.JPG"
             alt="Mount Rainier"
           />
-          <img className="graphic" src="img/misc/umd.JPG" alt="Sunset at UMD" />
           <img
             className="graphic"
-            src="img/misc/sunset.JPG"
+            src="./img/misc/umd.JPG"
+            alt="Sunset at UMD"
+          />
+          <img
+            className="graphic"
+            src="./img/misc/sunset.JPG"
             alt="Sunset view from dorm room"
           />
         </div>
         <div class="prettyColumn">
-          <img className="graphic" src="img/misc/dorm.JPG" alt="Dorm room" />
+          <img className="graphic" src="./img/misc/dorm.JPG" alt="Dorm room" />
           <img
             className="graphic"
-            src="img/misc/sunrise.JPG"
+            src="./img/misc/sunrise.JPG"
             alt="Sunrise at Ocean City"
           />
           <img
             className="graphic"
-            src="img/misc/janaamelia.JPG"
+            src="./img/misc/janaamelia.JPG"
             alt="Friends laughing"
           />
           <img
             className="graphic"
-            src="img/misc/japan.JPG"
+            src="./img/misc/japan.JPG"
             alt="Flower in Japan"
           />
-          <img className="graphic" src="img/misc/snow.JPG" alt="Snowy street" />
           <img
             className="graphic"
-            src="img/misc/mama.JPG"
+            src="./img/misc/snow.JPG"
+            alt="Snowy street"
+          />
+          <img
+            className="graphic"
+            src="./img/misc/mama.JPG"
             alt="Woman shopping"
           />
         </div>

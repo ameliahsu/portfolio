@@ -19,49 +19,49 @@ function RoboticsContents() {
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/22101a.jpg"
+            src="./img/robotics/22101a.jpg"
             alt="Mia with robot"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/sauci.jpeg"
+            src="./img/robotics/sauci.jpeg"
             alt="Our States robot, Sauci"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/excellence5.jpeg"
+            src="./img/robotics/excellence5.jpeg"
             alt="Winning the Excellence Award at Richmond Invitational"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/excellence1.jpg"
+            src="./img/robotics/excellence1.jpg"
             alt="Excellence Award at Richmond Invitational"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/states2.jpg"
+            src="./img/robotics/states2.jpg"
             alt="McRoboto at States"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/hoodie.jpg"
+            src="./img/robotics/hoodie.jpg"
             alt="McRoboto hoodie"
           />
         </div>
         <div className="portrait">
           <img
             className="portraitImg"
-            src="img/robotics/excellence2.jpg"
+            src="./img/robotics/excellence2.jpg"
             alt="Excellence Award at Richmond Invitational"
           />
         </div>
@@ -96,29 +96,32 @@ function RoboticsContents() {
         infiniteLoop={true}
       >
         <div>
-          <img src="img/robotics/field.JPG" alt="Robots at rest in field" />
+          <img src="./img/robotics/field.JPG" alt="Robots at rest in field" />
         </div>
         <div>
           <img
-            src="img/robotics/statesbanner.jpeg"
+            src="./img/robotics/statesbanner.jpeg"
             alt="Winning the design award at States!"
           />
         </div>
         <div>
-          <img src="img/robotics/statesoopsies.jpg" alt="Competing at States" />
+          <img
+            src="./img/robotics/statesoopsies.jpg"
+            alt="Competing at States"
+          />
         </div>
         <div>
           <img
-            src="img/robotics/match.jpg"
+            src="./img/robotics/match.jpg"
             alt="Competing at Richmond Invitational"
           />
         </div>
         <div>
-          <img src="img/robotics/states1.jpg" alt="McRoboto at States" />
+          <img src="./img/robotics/states1.jpg" alt="McRoboto at States" />
         </div>
         <div>
           <img
-            src="img/robotics/states3.jpg"
+            src="./img/robotics/states3.jpg"
             alt="Teams 22101A and 22101Z at States"
           />
         </div>

@@ -18,8 +18,9 @@
   position: relative;
   width: 90%;
   height: 86%;
-  /* margin: 2%; */
+  margin: 1%;
   overflow-y: auto;
+  padding: 0.5%;
 }
 
 .heading {
@@ -64,6 +65,10 @@ strong {
   color: #86bdda;
   font-size: 4vmin;
   margin: 4vmin 0 2vmin 0;
+}
+
+p {
+  font-family: "League Spartan", sans-serif;
 }
 
 @media (orientation: portrait) {

@@ -22,23 +22,23 @@ function GraphicDesignContents() {
       </p>
       <img
         className="graphic wiffleballEvent"
-        src="img/graphics/wiffleball/event.png"
+        src="./img/graphics/wiffleball/event.png"
         alt="Mr. Wiffleball Facebook event graphic"
       />
       <div className="wiffleball">
         <img
           className="graphic"
-          src="img/graphics/wiffleball/pravi.png"
+          src="./img/graphics/wiffleball/pravi.png"
           alt="Mr. Wiffleball contestant introduction graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/wiffleball/charlie.png"
+          src="./img/graphics/wiffleball/charlie.png"
           alt="Mr. Wiffleball contestant introduction graphic"
         />
         <img
           className="graphic hide"
-          src="img/graphics/wiffleball/raymart.png"
+          src="./img/graphics/wiffleball/raymart.png"
           alt="Mr. Wiffleball contestant introduction graphic"
         />
       </div>
@@ -51,32 +51,32 @@ function GraphicDesignContents() {
       <div className="reveal">
         <img
           className="graphic"
-          src="img/graphics/board/revealcover.png"
+          src="./img/graphics/board/revealcover.png"
           alt="UMCP TASA 2022-23 board reveal cover graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/board/advisors.png"
+          src="./img/graphics/board/advisors.png"
           alt="UMCP TASA 2022-23 advisors reveal graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/board/advisorscover.png"
+          src="./img/graphics/board/advisorscover.png"
           alt="UMCP TASA 2022-23 advisors reveal cover graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/board/ines.png"
+          src="./img/graphics/board/ines.png"
           alt="UMCP TASA 2022-23 board reveal graphic"
         />
         <img
           className="graphic hide"
-          src="img/graphics/board/justin.png"
+          src="./img/graphics/board/justin.png"
           alt="UMCP TASA 2022-23 board reveal graphic"
         />
         <img
           className="graphic hide"
-          src="img/graphics/board/xtina.png"
+          src="./img/graphics/board/xtina.png"
           alt="UMCP TASA 2022-23 board reveal graphic"
         />
       </div>
@@ -88,22 +88,22 @@ function GraphicDesignContents() {
       <div className="scrapbook">
         <img
           className="graphic"
-          src="img/graphics/scrapbook/cover.png"
+          src="./img/graphics/scrapbook/cover.png"
           alt="UMCP TASA Summer 2022 scrapbook cover graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/scrapbook/seattle.png"
+          src="./img/graphics/scrapbook/seattle.png"
           alt="UMCP TASA Summer 2022 scrapbook graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/scrapbook/latenight.png"
+          src="./img/graphics/scrapbook/latenight.png"
           alt="UMCP TASA Summer 2022 scrapbook graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/scrapbook/sunrise.png"
+          src="./img/graphics/scrapbook/sunrise.png"
           alt="UMCP TASA Summer 2022 scrapbook graphic"
         />
       </div>
@@ -115,17 +115,17 @@ function GraphicDesignContents() {
       <div className="intros">
         <img
           className="graphic hide"
-          src="img/graphics/board/audrey.png"
+          src="./img/graphics/board/audrey.png"
           alt="UMCP TASA 2022-23 board introduction graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/board/mandy.png"
+          src="./img/graphics/board/mandy.png"
           alt="UMCP TASA 2022-23 board introduction graphic"
         />
         <img
           className="graphic"
-          src="img/graphics/board/alina.png"
+          src="./img/graphics/board/alina.png"
           alt="UMCP TASA 2022-23 board introduction graphic"
         />
       </div>
@@ -136,42 +136,42 @@ function GraphicDesignContents() {
       <div className="events">
         <img
           className="graphic"
-          src="img/graphics/events/biglittle.png"
+          src="./img/graphics/events/biglittle.png"
           alt="Promotional graphic for UMCP TASA Big Little Week"
         />
         <img
           className="graphic"
-          src="img/graphics/events/moge.png"
+          src="./img/graphics/events/moge.png"
           alt="Promotional graphic for UMCP TASA Moge Tee Fundriaser"
         />
         <img
           className="graphic"
-          src="img/graphics/events/skating.png"
+          src="./img/graphics/events/skating.png"
           alt="Promotional graphic for UMCP TASA x JASA Ice Skating Mixer"
         />
         <img
           className="graphic"
-          src="img/graphics/events/membership.png"
+          src="./img/graphics/events/membership.png"
           alt="Promotional graphic for UMCP TASA Membership Cards"
         />
         <img
           className="graphic"
-          src="img/graphics/events/halloween.png"
+          src="./img/graphics/events/halloween.png"
           alt="Promotional graphic for UMCP TASA Halloween GBM"
         />
         <img
           className="graphic"
-          src="img/graphics/events/shavedice.png"
+          src="./img/graphics/events/shavedice.png"
           alt="Promotional graphic for UMCP TASA Shaved Ice GBM"
         />
         <img
           className="graphic"
-          src="img/graphics/events/november.png"
+          src="./img/graphics/events/november.png"
           alt="Promotional graphic for UMCP TASA services fundraiser"
         />
         <img
           className="graphic"
-          src="img/graphics/events/study.png"
+          src="./img/graphics/events/study.png"
           alt="Promotional graphic for UMCP TASA Study Oolong GBM"
         />
       </div>

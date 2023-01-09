@@ -9,13 +9,13 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
         <div className="top-row">
           <PageButton
             header={"about me"}
-            image={"/img/cheese.jpg"}
+            image={"./img/cheese.jpg"}
             buttonName={"about"}
             setPage={setAbout}
           />
           <PageButton
             header={"robotics"}
-            image={"/img/robot.jpg"}
+            image={"./img/robot.jpg"}
             buttonName={"robotics"}
             setPage={setRobotics}
           />
@@ -28,13 +28,13 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
         <div className="bottom-row">
           <PageButton
             header={"graphic design"}
-            image={"/img/graphics/events/moge.png"}
+            image={"./img/graphics/events/moge.png"}
             buttonName={"graphics"}
             setPage={setGraphics}
           />
           <PageButton
             header={"photography"}
-            image={"/img/kayak.JPG"}
+            image={"./img/kayak.JPG"}
             buttonName={"photos"}
             setPage={setPhotos}
           />
