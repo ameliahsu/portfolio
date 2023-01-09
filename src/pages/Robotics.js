@@ -19,7 +19,7 @@ function RoboticsContents() {
         <div className="portrait">
           <img
             className="portraitImg"
-            src="./img/robotics/22101a.jpg"
+            src="./img/robotics/22101a.JPG"
             alt="Mia with robot"
           />
         </div>

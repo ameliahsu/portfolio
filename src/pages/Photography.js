@@ -18,35 +18,35 @@ function PhotographyContents() {
         again!
       </p>
       <div className="film">
-        <img className="graphic" src="./img/film/jason.jpg" alt="Dorm room" />
+        <img className="graphic" src="./img/film/jason.JPG" alt="Dorm room" />
         <img
           className="graphic"
-          src="./img/film/bffs.jpg"
+          src="./img/film/bffs.JPG"
           alt="Friends in dorm room"
         />
         <img
           className="graphic"
-          src="./img/film/sunset.jpg"
+          src="./img/film/sunset.JPG"
           alt="Sunset in DC"
         />
         <img
           className="graphic"
-          src="./img/film/sandwich.jpg"
+          src="./img/film/sandwich.JPG"
           alt="Sandwiches"
         />
         <img
           className="graphic"
-          src="./img/film/joji3.jpg"
+          src="./img/film/joji3.JPG"
           alt="Joji concert"
         />
         <img
           className="graphic"
-          src="./img/film/joji1.jpg"
+          src="./img/film/joji1.JPG"
           alt="Joji concert"
         />
         <img
           className="graphic"
-          src="./img/film/joji2.jpg"
+          src="./img/film/joji2.JPG"
           alt="Joji concert"
         />
         <img
@@ -54,10 +54,10 @@ function PhotographyContents() {
           src="./img/film/thanksgiving.jpg"
           alt="Thanksgiving"
         />
-        <img className="graphic" src="./img/film/bunny.jpg" alt="Bunny" />
+        <img className="graphic" src="./img/film/bunny.JPG" alt="Bunny" />
         <img
           className="graphic"
-          src="./img/film/wontons1.jpg"
+          src="./img/film/wontons1.JPG"
           alt="Making wontons"
         />
       </div>
