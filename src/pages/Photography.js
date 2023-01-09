@@ -35,6 +35,32 @@ function PhotographyContents() {
           alt="Making wontons"
         />
       </div>
+      <h3 className="subheading">food photos</h3>
+      <p>Camera always eats first!</p>
+      <div className="food">
+        <div className="landscapeFood">
+          <img className="graphic" src="img/food/ruthies.JPG" alt="Brunch" />
+          <img className="graphic" src="img/food/sushi.JPG" alt="Sushi" />
+          <img className="graphic" src="img/food/tacos.jpg" alt="Tacos" />
+        </div>
+        <div className="portraitFood">
+          <img
+            className="graphic"
+            src="img/food/mochidonuts.jpg"
+            alt="Mochi donuts"
+          />
+          <img className="graphic" src="img/food/teriyaki.JPG" alt="Teriyaki" />
+          <img className="graphic" src="img/food/poke.JPG" alt="Poke" />
+
+          <img
+            className="graphic"
+            src="img/food/matcha.jpg"
+            alt="Matcha desserts"
+          />
+          <img className="graphic" src="img/food/milkbar.jpg" alt="Ice cream" />
+          <img className="graphic" src="img/food/hanami.JPG" alt="Sushi" />
+        </div>
+      </div>
     </div>
   );
 }

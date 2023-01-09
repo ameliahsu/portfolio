@@ -15,9 +15,40 @@
   margin-top: 2vmin;
 }
 
+.landscapeFood {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1vmin;
+  margin: 2vmin 0 1vmin 0;
+}
+
+.portraitFood {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1vmin;
+  height: auto;
+}
+
+.portraitFood > img {
+  height: 100%;
+  overflow: hidden;
+}
+
 @media (orientation: portrait) {
   .film {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
+  }
+
+  .landscapeFood {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portraitFood {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
