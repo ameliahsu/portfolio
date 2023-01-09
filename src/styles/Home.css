@@ -99,6 +99,10 @@ h1 {
   bottom: 4vmin;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 @media (orientation: portrait) {
   .home {
     display: flex;
