@@ -21,6 +21,12 @@ function App() {
         cellWidth={60}
         strokeWidth={6}
       >
+        <Home
+          setAbout={setAbout}
+          setRobotics={setRobotics}
+          setGraphics={setGraphics}
+          setPhotos={setPhotos}
+        />
         {about ? (
           <AboutMe setAbout={setAbout} />
         ) : robotics ? (
@@ -30,12 +36,7 @@ function App() {
         ) : photos ? (
           <Photography setPhotos={setPhotos} />
         ) : (
-          <Home
-            setAbout={setAbout}
-            setRobotics={setRobotics}
-            setGraphics={setGraphics}
-            setPhotos={setPhotos}
-          />
+          <></>
         )}
       </GridLines>
     </div>

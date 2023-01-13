@@ -7,20 +7,22 @@
 .container {
   background-color: #f7faf0;
   border-radius: 4vmin;
-  width: 80%;
-  height: 80%;
+  width: 85vw;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 3;
+  position: fixed;
 }
 
 .contents {
   position: relative;
-  width: 90%;
+  width: 92%;
   height: 86%;
   margin: 1%;
   overflow-y: auto;
-  padding: 0.5%;
+  padding: 1%;
 }
 
 .heading {
