@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/App.css";
 import GridLines from "react-gridlines";
+import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home.js";
 import AboutMe from "./pages/AboutMe";
 import Robotics from "./pages/Robotics";
@@ -27,17 +28,18 @@ function App() {
           setGraphics={setGraphics}
           setPhotos={setPhotos}
         />
-        {about ? (
-          <AboutMe setAbout={setAbout} />
-        ) : robotics ? (
-          <Robotics setRobotics={setRobotics} />
-        ) : graphics ? (
-          <GraphicDesign setGraphics={setGraphics} />
-        ) : photos ? (
-          <Photography setPhotos={setPhotos} />
-        ) : (
-          <></>
-        )}
+        <AnimatePresence>
+          {about && <AboutMe setAbout={setAbout} />}
+        </AnimatePresence>
+        <AnimatePresence>
+          {robotics && <Robotics setRobotics={setRobotics} />}
+        </AnimatePresence>
+        <AnimatePresence>
+          {graphics && <GraphicDesign setGraphics={setGraphics} />}
+        </AnimatePresence>
+        <AnimatePresence>
+          {photos && <Photography setPhotos={setPhotos} />}
+        </AnimatePresence>
       </GridLines>
     </div>
   );
