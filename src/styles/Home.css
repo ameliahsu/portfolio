@@ -40,7 +40,15 @@ h1 {
 
 .icon-button:hover {
   background-color: #4f6614;
-  font-size: 6.5vmin;
+  transition: all 350ms ease;
+}
+
+.icon-button:hover .logo {
+  transform: scale(1.1);
+}
+
+.logo {
+  transition: all 350ms ease;
 }
 
 .socials {

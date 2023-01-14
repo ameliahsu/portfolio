@@ -8,15 +8,15 @@ function Socials() {
   return (
     <div className="socials">
       <IconButton
-        icon={<FontAwesomeIcon icon={faLinkedinIn} />}
+        icon={<FontAwesomeIcon className="logo" icon={faLinkedinIn} />}
         link="https://www.linkedin.com/in/amelia-hsu/"
       />
       <IconButton
-        icon={<FontAwesomeIcon icon={faEnvelope} />}
+        icon={<FontAwesomeIcon className="logo" icon={faEnvelope} />}
         link="mailto:ameliahsu@gmail.com"
       />
       <IconButton
-        icon={<FontAwesomeIcon icon={faGithub} />}
+        icon={<FontAwesomeIcon className="logo" icon={faGithub} />}
         link="https://github.com/ameliahsu"
       />
     </div>
