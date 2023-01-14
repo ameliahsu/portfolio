@@ -3,6 +3,7 @@ import Socials from "../components/Socials.js";
 import PageButton from "../components/PageButton";
 
 function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
+  let copyright = String.fromCodePoint(0x00a9);
   return (
     <div className="home">
       <div className="top-wrapper">
@@ -41,6 +42,7 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
         </div>
       </div>
       <Socials />
+      <h5 className="copyright">{copyright} Mia Hsu 2023</h5>
     </div>
   );
 }

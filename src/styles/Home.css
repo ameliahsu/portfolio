@@ -104,6 +104,15 @@ button:hover {
   cursor: pointer;
 }
 
+.copyright {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2vmin;
+  color: white;
+  position: absolute;
+  bottom: 2vh;
+  margin: 0;
+}
+
 @media (orientation: portrait) {
   .home {
     display: flex;
