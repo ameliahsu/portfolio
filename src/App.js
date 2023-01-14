@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from "./Main.js";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Main page={""} />} />
         <Route path="/about" element={<Main page={"about"} />} />
@@ -12,7 +12,7 @@ function App() {
         <Route path="/design" element={<Main page={"graphics"} />} />
         <Route path="/photos" element={<Main page={"photos"} />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
