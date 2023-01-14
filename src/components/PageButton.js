@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import ReactCurvedText from "react-curved-text";
+import { motion } from "framer-motion";
 
 function vh(percent) {
   var h = Math.max(
@@ -57,7 +58,11 @@ function PageButton({ header, image, buttonName, setPage }) {
   var offset = (radius * Math.PI) / 2 - getTextWidth(header) / 2;
 
   return (
-    <div className="page-button-container">
+    <motion.div
+      className="page-button-container"
+      initial={{ scale: 0 }}
+      animate={{ scale: 1, transition: { duration: 0.5 } }}
+    >
       <ReactCurvedText
         className="heading"
         width={size}
@@ -91,7 +96,7 @@ function PageButton({ header, image, buttonName, setPage }) {
           setPage(true);
         }}
       />
-    </div>
+    </motion.div>
   );
 }
 
