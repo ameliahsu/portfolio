@@ -77,7 +77,7 @@ function PhotographyContents() {
           />
           <img
             className="graphic"
-            src="./img/food/teriyaki.JPG"
+            src="./img/food/teriyaki.jpg"
             alt="Teriyaki"
           />
           <img className="graphic" src="./img/food/poke.JPG" alt="Poke" />
@@ -136,7 +136,7 @@ function PhotographyContents() {
           <img className="graphic" src="./img/misc/kayak.JPG" alt="Kayaks" />
           <img
             className="graphic"
-            src="./img/misc/motorcycle.JPG"
+            src="./img/misc/motorcycle.jpg"
             alt="Motorcycle driving over bridge"
           />
           <img className="graphic" src="./img/misc/tula.JPG" alt="Puppy" />
@@ -145,7 +145,7 @@ function PhotographyContents() {
             src="./img/misc/hitc2.JPG"
             alt="Head in the Clouds Festival 2021"
           />
-          <img className="graphic" src="./img/misc/jason.JPG" alt="Picnic" />
+          <img className="graphic" src="./img/misc/jason.jpg" alt="Picnic" />
           <img
             className="graphic"
             src="./img/misc/dopple.JPG"
@@ -155,7 +155,7 @@ function PhotographyContents() {
         <div class="prettyColumn">
           <img
             className="graphic"
-            src="./img/misc/temple.JPG"
+            src="./img/misc/temple.jpg"
             alt="Temple in Taiwan"
           />
           <img
@@ -198,12 +198,12 @@ function PhotographyContents() {
           />
           <img
             className="graphic"
-            src="./img/misc/janaamelia.JPG"
+            src="./img/misc/janaamelia.jpg"
             alt="Friends laughing"
           />
           <img
             className="graphic"
-            src="./img/misc/japan.JPG"
+            src="./img/misc/japan.jpg"
             alt="Flower in Japan"
           />
           <img
