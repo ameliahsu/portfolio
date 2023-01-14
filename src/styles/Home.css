@@ -31,8 +31,9 @@ h1 {
   width: 12vmin;
   height: 12vmin;
   font-size: 6vmin;
-  justify-content: "center";
-  align-items: "center";
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 5;
   transition: all 350ms ease;
 }
