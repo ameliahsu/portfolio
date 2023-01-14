@@ -55,7 +55,10 @@
 
 .exit:hover {
   color: #4f6614;
-  font-size: 6.5vmin;
+}
+
+.exit:hover .logo {
+  transform: scale(1.1);
 }
 
 a:hover,

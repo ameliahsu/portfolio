@@ -9,10 +9,7 @@ import GraphicDesign from "./pages/GraphicDesign";
 import Photography from "./pages/Photography";
 
 function App() {
-  const [about, setAbout] = React.useState(false);
-  const [robotics, setRobotics] = React.useState(false);
-  const [graphics, setGraphics] = React.useState(false);
-  const [photos, setPhotos] = React.useState(false);
+  const [page, setPage] = React.useState("");
 
   return (
     <div className="app">
@@ -22,23 +19,18 @@ function App() {
         cellWidth={60}
         strokeWidth={6}
       >
-        <Home
-          setAbout={setAbout}
-          setRobotics={setRobotics}
-          setGraphics={setGraphics}
-          setPhotos={setPhotos}
-        />
+        <Home setPage={setPage} />
         <AnimatePresence>
-          {about && <AboutMe setAbout={setAbout} />}
+          {page === "about me" && <AboutMe setAbout={setPage} />}
         </AnimatePresence>
         <AnimatePresence>
-          {robotics && <Robotics setRobotics={setRobotics} />}
+          {page === "robotics" && <Robotics setRobotics={setPage} />}
         </AnimatePresence>
         <AnimatePresence>
-          {graphics && <GraphicDesign setGraphics={setGraphics} />}
+          {page === "graphic design" && <GraphicDesign setGraphics={setPage} />}
         </AnimatePresence>
         <AnimatePresence>
-          {photos && <Photography setPhotos={setPhotos} />}
+          {page === "photography" && <Photography setPhotos={setPage} />}
         </AnimatePresence>
       </GridLines>
     </div>

@@ -2,7 +2,7 @@ import "../styles/Home.css";
 import Socials from "../components/Socials.js";
 import PageButton from "../components/PageButton";
 
-function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
+function Home({ setPage }) {
   let copyright = String.fromCodePoint(0x00a9);
   return (
     <div className="home">
@@ -12,13 +12,13 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
             header={"about me"}
             image={"./img/cheese.jpg"}
             buttonName={"about"}
-            setPage={setAbout}
+            setPage={setPage}
           />
           <PageButton
             header={"robotics"}
             image={"./img/robot.jpg"}
             buttonName={"robotics"}
-            setPage={setRobotics}
+            setPage={setPage}
           />
         </div>
       </div>
@@ -31,13 +31,13 @@ function Home({ setAbout, setRobotics, setGraphics, setPhotos }) {
             header={"graphic design"}
             image={"./img/graphics/events/moge.png"}
             buttonName={"graphics"}
-            setPage={setGraphics}
+            setPage={setPage}
           />
           <PageButton
             header={"photography"}
             image={"./img/kayak.JPG"}
             buttonName={"photos"}
-            setPage={setPhotos}
+            setPage={setPage}
           />
         </div>
       </div>

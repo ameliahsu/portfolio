@@ -20,10 +20,10 @@ function PageContainer({ title, contents, setPage }) {
         <button
           className="exit"
           onClick={() => {
-            setPage(false);
+            setPage("");
           }}
         >
-          {<FontAwesomeIcon icon={faXmark} />}
+          {<FontAwesomeIcon className="logo" icon={faXmark} />}
         </button>
       </div>
       <div className="contents">{open && contents}</div>

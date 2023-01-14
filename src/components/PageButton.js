@@ -45,7 +45,6 @@ function getTextWidth(str) {
 function PageButton({ header, image, buttonName, setPage }) {
   React.useEffect(() => {
     function handleResize() {
-      console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
       window.location.reload();
     }
 
@@ -93,7 +92,7 @@ function PageButton({ header, image, buttonName, setPage }) {
           backgroundImage: `url(${image})`,
         }}
         onClick={() => {
-          setPage(true);
+          setPage(header);
         }}
       />
     </motion.div>
