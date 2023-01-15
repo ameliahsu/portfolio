@@ -1,29 +1,23 @@
-import { Link } from "react-router-dom";
-
 import "../styles/Home.css";
-import Socials from "../components/Socials.js";
 import PageButton from "../components/PageButton";
+import Socials from "../components/Socials";
 
-function Home({ setPage }) {
+function Home() {
   let copyright = String.fromCodePoint(0x00a9);
   return (
     <div className="home">
       <div className="top-wrapper">
         <div className="top-row">
-          <Link to="/about">
-            <PageButton
-              header={"about me"}
-              image={"./img/cheese.jpg"}
-              buttonName={"about"}
-            />
-          </Link>
-          <Link to="/robotics">
-            <PageButton
-              header={"robotics"}
-              image={"./img/robot.jpg"}
-              buttonName={"robotics"}
-            />
-          </Link>
+          <PageButton
+            header={"about me"}
+            image={"./img/cheese.jpg"}
+            route={"/about"}
+          />
+          <PageButton
+            header={"robotics"}
+            image={"./img/robot.jpg"}
+            route={"/robotics"}
+          />
         </div>
       </div>
       <header className="name">
@@ -31,20 +25,16 @@ function Home({ setPage }) {
       </header>
       <div className="bottom-wrapper">
         <div className="bottom-row">
-          <Link to="/design">
-            <PageButton
-              header={"graphic design"}
-              image={"./img/graphics/events/moge.png"}
-              buttonName={"graphics"}
-            />
-          </Link>
-          <Link to="/photos">
-            <PageButton
-              header={"photography"}
-              image={"./img/kayak.JPG"}
-              buttonName={"photos"}
-            />
-          </Link>
+          <PageButton
+            header={"graphic design"}
+            image={"./img/graphics/events/moge.png"}
+            route={"/design"}
+          />
+          <PageButton
+            header={"photography"}
+            image={"./img/kayak.JPG"}
+            route={"/photos"}
+          />
         </div>
       </div>
       <Socials />

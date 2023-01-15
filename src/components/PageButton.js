@@ -1,6 +1,7 @@
-import React from "react";
 import "../styles/Home.css";
+import React from "react";
 import ReactCurvedText from "react-curved-text";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function vh(percent) {
@@ -42,7 +43,7 @@ function getTextWidth(str) {
   return width;
 }
 
-function PageButton({ header, image, buttonName, setPage }) {
+function PageButton({ header, image, route }) {
   React.useEffect(() => {
     function handleResize() {
       window.location.reload();
@@ -86,15 +87,14 @@ function PageButton({ header, image, buttonName, setPage }) {
           },
         }}
       />
-      <button
-        className={`page-button ${buttonName}`}
-        style={{
-          backgroundImage: `url(${image})`,
-        }}
-        onClick={() => {
-          setPage(header);
-        }}
-      />
+      <Link to={route}>
+        <button
+          className={`page-button`}
+          style={{
+            backgroundImage: `url(${image})`,
+          }}
+        />
+      </Link>
     </motion.div>
   );
 }
